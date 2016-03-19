@@ -34,7 +34,6 @@ cacheSolve <- function(x, ...) {
     ## always invertible.
     im <- x$getmatrix()
     if(!is.null(im)){
-        message("getting cached data...")
         return (im)
     }
     m <- x$get()
